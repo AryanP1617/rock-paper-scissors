@@ -4,14 +4,14 @@ let choice,computer_choice;
 document.querySelectorAll(".buttons").forEach(button => {
     button.addEventListener("click",()=>
     {
-        document.getElementById("display").textContent = "";
+        document.getElementById("display").textContent = " ";
         let choice=parseInt(button.dataset.choice);
         playround(choice)
     });
 });
 
 document.getElementById("resetbutton").addEventListener("click",()=>{
-    document.getElementById("display").textContent = "";
+    document.getElementById("display").textContent = " ";
 })
 function playround(choice)
 {
