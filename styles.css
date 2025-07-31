@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#display{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin:50px auto;
+    border:2px solid black;
+    border-radius: 6px;
+    
+    
+}
+
+#Action{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.buttons{
+    transform: scale(1.5);
+    padding: 10px 15px ;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: white;
+    background-color: #4682B4;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.buttons:hover
+{
+    
+    background-color: #1E90FF;
+}
+
+
+#resetbutton{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transform: scale(1);
+    padding: 10px 15px ;
+     border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#resetbutton:hover{
+    background-color: darkred;
+}
